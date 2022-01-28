@@ -5,7 +5,7 @@
 - __[people](https://github.com/ELenaUtrushkina/DE-101/blob/main/Module2/People.sql)__ - скрипт таблицы People;
 - __[returns](https://github.com/ELenaUtrushkina/DE-101/blob/main/Module2/Returns.sql)__ - скрипт таблицы Returns.
 3. Написала запросы, чтобы ответить на вопросы из Модуля 01.
-- __[query](https://github.com/ELenaUtrushkina/DE-101/blob/main/Module2/%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81%D1%8B%20%D0%BA%20%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D1%8E1.sql)__
+- __[query](https://github.com/ELenaUtrushkina/DE-101/blob/main/Module2/query.sql)__
 
 ## Нарисовала модели данных для файла Superstore:
 ### Концептуальная модель данных
@@ -20,4 +20,4 @@
 + Подключилась к новой БД через DBeaver;
 + Загрузила данные из модуля 2.3 (Superstore dataset):
 -Staging (схема БД stg) __[stg.orders.sql]()__
--Business Layer (схема dw) __[from_stg_to_dw.sql]()__
+-Business Layer (схема dw) __[from_stg_to_dw.sql](https://github.com/ELenaUtrushkina/DE-101/blob/main/Module2/from_stg_to_dw.sql)__
