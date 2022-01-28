@@ -9,4 +9,15 @@
 
 ## Нарисовала модели данных для файла Superstore:
 ### Концептуальная модель данных
-!()
+![Concept](https://github.com/ELenaUtrushkina/DE-101/blob/main/Module2/Conceptual%20Data%20Model.png)
+### Логическая модель данных
+![Logic](https://github.com/ELenaUtrushkina/DE-101/blob/main/Module2/Logical%20Data%20Model.png)
+### Физическая модель данных
+![Physic](https://github.com/ELenaUtrushkina/DE-101/blob/main/Module2/Physical%20Data%20Model.png)
+## База данных в облаке
++ Создала учетную запись в AWS;
++ Используя сервис AWS RDS создала БД Postgres;
++ Подключилась к новой БД через DBeaver;
++ Загрузила данные из модуля 2.3 (Superstore dataset):
+-Staging (схема БД stg) __[stg.orders.sql]()__
+-Business Layer (схема dw) __[from_stg_to_dw.sql]()__
