@@ -1,4 +1,4 @@
--- Динамика дохода и прибыли
+-- Г„ГЁГ­Г Г¬ГЁГЄГ  Г¤Г®ГµГ®Г¤Г  ГЁ ГЇГ°ГЁГЎГ»Г«ГЁ
 
 select 
 	extract (year from order_date), 
@@ -9,7 +9,7 @@ from orders o
 group by 1,2
 order by 1,2;
 
--- категории товаров в сравнении
+-- ГЄГ ГІГҐГЈГ®Г°ГЁГЁ ГІГ®ГўГ Г°Г®Гў Гў Г±Г°Г ГўГ­ГҐГ­ГЁГЁ
 
 select 
 	category, 
@@ -20,7 +20,7 @@ from orders o
 group by 1,2
 order by 1,2;
 
--- региональные менеджеры в сравнении
+-- Г°ГҐГЈГЁГ®Г­Г Г«ГјГ­Г»ГҐ Г¬ГҐГ­ГҐГ¤Г¦ГҐГ°Г» Гў Г±Г°Г ГўГ­ГҐГ­ГЁГЁ
 
 select 
 	people.person, 
@@ -31,7 +31,7 @@ join people on o.region = people.region
 group by 1
 order by 1;
 
--- сегменты (сравнение)
+-- Г±ГҐГЈГ¬ГҐГ­ГІГ» (Г±Г°Г ГўГ­ГҐГ­ГЁГҐ)
 
 select 
 	segment, 
@@ -41,7 +41,7 @@ from orders o
 group by 1
 order by 1;
 
--- динамика продаж по сегментам
+-- Г¤ГЁГ­Г Г¬ГЁГЄГ  ГЇГ°Г®Г¤Г Г¦ ГЇГ® Г±ГҐГЈГ¬ГҐГ­ГІГ Г¬
 
 select 
 	extract (year from order_date), 
@@ -52,7 +52,7 @@ from orders o
 group by 1,2
 order by 1,2;
 
--- основные показатели
+-- Г®Г±Г­Г®ГўГ­Г»ГҐ ГЇГ®ГЄГ Г§Г ГІГҐГ«ГЁ
 
 select 
 	extract (year from order_date), 
@@ -65,7 +65,7 @@ from orders o
 group by 1,2
 order by 1,2;
 
--- сравнение продаж по штатам
+-- Г±Г°Г ГўГ­ГҐГ­ГЁГҐ ГЇГ°Г®Г¤Г Г¦ ГЇГ® ГёГІГ ГІГ Г¬
 
 select 
 	country, 
@@ -75,7 +75,7 @@ from orders o
 group by 1,2
 order by 1,2;
 
--- сравнение продаж по регионам
+-- Г±Г°Г ГўГ­ГҐГ­ГЁГҐ ГЇГ°Г®Г¤Г Г¦ ГЇГ® Г°ГҐГЈГЁГ®Г­Г Г¬
 
 select 
 	region, 
